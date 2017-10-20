@@ -10,3 +10,6 @@ Level 2 has 3 moving balls that the user can click on to increment their score. 
 
 ## Level 3
 Level 3 also has 3 moving balls but of different sizes! Each ball is therefore worth a different amount of points. The number of points the user should get for each ball is saved in side of a data attribute on the ball HTML elements. You can access the data attribute of an element from the event object by looking at the event target's `dataset` property. When the user clicks on a ball, increment their score based on how many points that ball is worth until they reach 100.
+
+## Tip:
+When the score is greater than or equal to 100, the player has beat the level! All you need to do is add a 'game-over' class to the document body. If you don't remember how to do that - ask for a hint!
